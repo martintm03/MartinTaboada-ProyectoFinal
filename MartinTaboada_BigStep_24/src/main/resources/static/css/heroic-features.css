@@ -1,0 +1,138 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/templates/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+ body {
+  background: url("../images/fondo.png") center/cover no-repeat;
+  padding-top: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  background-color: grey;
+  text-align: center;
+}
+
+.jumbotron img {
+  width: 500px;
+  height: auto;
+  margin: 0;
+}
+
+.navbar {
+  background-color: darkorchid !important;
+}
+
+p.lead {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: darkorchid;
+  font-size: xx-large;
+}
+
+.btn-outline-success,
+.btn-success {
+  color: darkorchid;
+  border-color: #ebfc01;
+  font-weight: bold;
+}
+
+.btn-outline-success {
+  color: #ebfc01;
+}
+
+.btn-success {
+  background-color: #ebfc01;
+}
+
+.btn:hover {
+  background-color: darkgray;
+  color: darkorchid;
+  border-color: darkorchid;
+}
+
+.card-body {
+  border: 1px solid;
+  background-color: darkorchid;
+}
+
+.card,
+.card-footer {
+  background-color: transparent;
+  border: 0;
+}
+
+a.card-link {
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+p.card-text,
+td {
+  color: white;
+  font-weight: bold;
+}
+
+th {
+  color: black;
+}
+
+.social,
+.search {
+  width: 30px;
+  height: 30px;
+}
+
+.carrito {
+  width: 40px;
+  height: 40px;
+}
+
+.container {
+  background-color: darkorchid;
+}
+
+#main {
+  background-color: transparent;
+}
+
+.alert td {
+  color: black;
+}
+
+.animated-text {
+  white-space: nowrap;
+  animation: slideIn 2s ease-in-out;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 20px 0 200px;
+  text-align: center;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.card-header {
+  background-color: darkgray;
+}
